@@ -2,9 +2,9 @@
   <img height="180" src="https://i.imgur.com/ie9fmIA.jpeg" style="border-radius: 12px;" />
   <br /><br />
 
-  <h1>👨‍💻 Hicham Ahmana</h1>
+  <h1> Hicham Ahmana</h1>
   <p><strong>Full Stack Developer</strong> · Django · Next.js · Tailwind</p>
-  <p>🚀 Building Ideas into Reality &nbsp;·&nbsp; Code &nbsp;·&nbsp; Create &nbsp;·&nbsp; Innovate ✨</p>
+  <p>Building Ideas into Reality &nbsp;·&nbsp; Code &nbsp;·&nbsp; Create &nbsp;·&nbsp; Innovate </p>
 
   <br />
 
@@ -25,7 +25,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Languages & Frameworks
 
