@@ -12,10 +12,6 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="48" height="36" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="https://x.com/ahmana_hicham" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="48" height="36" alt="X / Twitter" />
-  </a>
-  &nbsp;
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="48" height="36" alt="Discord" />
   &nbsp;
   <a href="https://t.me/Hichamahmana" target="_blank">
