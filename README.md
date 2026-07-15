@@ -60,12 +60,12 @@
   <br /><br />
   <img src="https://streak-stats.demolab.com?user=HichamAhmana&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="165" alt="GitHub streak stats" />
   <br /><br />
-  <img src="https://github-profile-trophy.vercel.app?username=HichamAhmana&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8" height="115" alt="GitHub trophies" />
+  <img src="https://raw.githubusercontent.com/HichamAhmana/HichamAhmana/output/trophy.svg" height="115" alt="GitHub trophies" />
 </div>
 
 <br />
 
-##  Latest on Medium
+## 📝 Latest on Medium
 
 <div align="center">
   <a target="_blank" href="https://medium.com/@hichamahmana">
