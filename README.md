@@ -55,8 +55,8 @@
 ##  GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HichamAhmana&show_icons=true&theme=dracula&hide_border=false&border_radius=5&rank_icon=github" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HichamAhmana&layout=compact&theme=dracula&hide_border=false&border_radius=5&langs_count=8" height="165" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=HichamAhmana&show_icons=true&theme=dracula&hide_border=false&border_radius=5&rank_icon=github&cache_seconds=86400" height="165" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HichamAhmana&layout=compact&theme=dracula&hide_border=false&border_radius=5&langs_count=8&cache_seconds=86400" height="165" alt="Top languages" />
   <br /><br />
   <img src="https://streak-stats.demolab.com?user=HichamAhmana&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="165" alt="GitHub streak stats" />
   <br /><br />
@@ -77,11 +77,9 @@
 
 ##  Contribution Graph
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HichamAhmana/HichamAhmana/output/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HichamAhmana/HichamAhmana/output/pacman-contribution-graph.svg" />
-  <img src="https://raw.githubusercontent.com/HichamAhmana/HichamAhmana/output/pacman-contribution-graph.svg" alt="Pac-Man contribution graph" />
-</picture>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/HichamAhmana/HichamAhmana/output/pacman-contribution-graph-dark.svg" alt="Pac-Man contribution graph" />
+</div>
 
 <br /><br />
 
