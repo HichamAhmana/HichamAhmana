@@ -1,158 +1,90 @@
 <div align="center">
-  <img height="180" src="https://i.imgur.com/ie9fmIA.jpeg" style="border-radius: 12px;" />
+  <img height="180" src="https://i.imgur.com/ie9fmIA.jpeg" alt="Banner" />
+
   <br /><br />
 
-  <h1> Hicham Ahmana</h1>
-  <p><strong>Full Stack Developer</strong> · Django · Next.js · Tailwind</p>
-  <p>Building Ideas into Reality &nbsp;·&nbsp; Code &nbsp;·&nbsp; Create &nbsp;·&nbsp; Innovate </p>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=BD93F9&center=true&vCenter=true&width=520&lines=Hi%2C+I'm+Hicham+Ahmana+%F0%9F%91%8B;Full+Stack+Developer;Django+%C2%B7+Next.js+%C2%B7+Tailwind;Code+%C2%B7+Create+%C2%B7+Innovate" alt="Typing intro" />
 
-  <br />
+  <p><em>Building Ideas into Reality</em></p>
 
   <a href="https://www.linkedin.com/in/hicham-ahmana-b536a9296/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="48" height="36" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="48" height="36" alt="Discord" />
-  &nbsp;
   <a href="https://t.me/Hichamahmana" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="48" height="36" alt="Telegram" />
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
   </a>
+  <a href="https://discord.com/users/YOUR_DISCORD_ID" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+
+  <br /><br />
+
+  <img src="https://komarev.com/ghpvc/?username=HichamAhmana&style=for-the-badge&color=bd93f9" alt="Profile views" />
 </div>
 
----
+<br />
 
 ##  Tech Stack
 
-### Languages & Frameworks
+<div align="center">
 
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=ts" height="40" alt="TypeScript" title="TypeScript" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=js" height="40" alt="JavaScript" title="JavaScript" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=py" height="40" alt="Python" title="Python" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=php" height="40" alt="PHP" title="PHP" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=cs" height="40" alt="C#" title="C#" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=cpp" height="40" alt="C++" title="C++" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=java" height="40" alt="Java" title="Java" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=dart" height="40" alt="Dart" title="Dart" />
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=ts,js,py,php,cs,cpp,java,dart&perline=8" height="44" alt="Languages" />
+
+**Frontend**
+
+<img src="https://skillicons.dev/icons?i=nextjs,react,vue,tailwind,bootstrap,html,css,flutter&perline=8" height="44" alt="Frontend" />
+
+**Backend & APIs**
+
+<img src="https://skillicons.dev/icons?i=django,laravel,fastapi,graphql&perline=8" height="44" alt="Backend" />
+
+**Databases & DevOps**
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,docker,aws,git,github&perline=8" height="44" alt="Databases and DevOps" />
+
+**Tools & Design**
+
+<img src="https://skillicons.dev/icons?i=figma,vscode,wordpress,vite,jest,eslint&perline=8" height="44" alt="Tools" />
+
 </div>
 
 <br />
 
-### Frontend
-
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=nextjs" height="40" alt="Next.js" title="Next.js" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=react" height="40" alt="React" title="React" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=vue" height="40" alt="Vue.js" title="Vue.js" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="Tailwind CSS" title="Tailwind CSS" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=bootstrap" height="40" alt="Bootstrap" title="Bootstrap" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=html" height="40" alt="HTML5" title="HTML5" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=css" height="40" alt="CSS3" title="CSS3" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=flutter" height="40" alt="Flutter" title="Flutter" />
-</div>
-
-<br />
-
-### Backend & APIs
-
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=django" height="40" alt="Django" title="Django" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=laravel" height="40" alt="Laravel" title="Laravel" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=fastapi" height="40" alt="FastAPI" title="FastAPI" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=graphql" height="40" alt="GraphQL" title="GraphQL" />
-</div>
-
-<br />
-
-### Databases & DevOps
-
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=postgres" height="40" alt="PostgreSQL" title="PostgreSQL" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="MySQL" title="MySQL" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=sqlite" height="40" alt="SQLite" title="SQLite" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="Docker" title="Docker" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=aws" height="40" alt="AWS" title="AWS" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=git" height="40" alt="Git" title="Git" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=github" height="40" alt="GitHub" title="GitHub" />
-</div>
-
-<br />
-
-### Tools & Design
-
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=figma" height="40" alt="Figma" title="Figma" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=vscode" height="40" alt="VS Code" title="VS Code" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=wordpress" height="40" alt="WordPress" title="WordPress" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=vite" height="40" alt="Vite" title="Vite" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=jest" height="40" alt="Jest" title="Jest" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=eslint" height="40" alt="ESLint" title="ESLint" />
-</div>
-
----
-
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=HichamAhmana&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="GitHub streak stats" />
-  &nbsp;&nbsp;
-  <img src="https://github-profile-trophy.vercel.app?username=HichamAhmana&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" height="150" alt="GitHub trophies" />
+  <img src="https://github-readme-stats.vercel.app/api?username=HichamAhmana&show_icons=true&theme=dracula&hide_border=false&border_radius=5&rank_icon=github" height="165" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HichamAhmana&layout=compact&theme=dracula&hide_border=false&border_radius=5&langs_count=8" height="165" alt="Top languages" />
+  <br /><br />
+  <img src="https://streak-stats.demolab.com?user=HichamAhmana&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="165" alt="GitHub streak stats" />
+  <br /><br />
+  <img src="https://github-profile-trophy.vercel.app?username=HichamAhmana&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8" height="115" alt="GitHub trophies" />
 </div>
 
----
+<br />
 
-## 📝 Latest on Medium
+##  Latest on Medium
 
-<div align="center" style="width: 100%">
-  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@hichamahmana/0">
-    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@hichamahmana/0" alt="Latest Medium article" />
+<div align="center">
+  <a target="_blank" href="https://medium.com/@hichamahmana">
+    <img src="https://github-readme-medium-recent-article.vercel.app/medium/@hichamahmana/0" alt="Latest Medium article" />
   </a>
 </div>
 
----
+<br />
 
-## 🎮 Contribution Graph
+##  Contribution Graph
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HichamAhmana/HichamAhmana/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HichamAhmana/HichamAhmana/output/pacman-contribution-graph.svg">
-  <img src="https://raw.githubusercontent.com/HichamAhmana/HichamAhmana/main/pacman-contribution-graph.svg" alt="Pac-Man contribution graph" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HichamAhmana/HichamAhmana/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HichamAhmana/HichamAhmana/output/pacman-contribution-graph.svg" />
+  <img src="https://raw.githubusercontent.com/HichamAhmana/HichamAhmana/output/pacman-contribution-graph.svg" alt="Pac-Man contribution graph" />
 </picture>
 
----
-
-## 🎵 Recently Played
+<br /><br />
 
 <div align="center">
-  <a href="https://open.spotify.com/user/88d7enn1c4luf2x3m0w0r33fj">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=88d7enn1c4luf2x3m0w0r33fj&count=3" alt="Spotify recently played" />
-  </a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=bd93f9&height=90&section=footer" width="100%" alt="Footer wave" />
 </div>
