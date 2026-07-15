@@ -1,4 +1,4 @@
-name: generate trophies
+name: generate profile assets
 
 on:
   schedule:
@@ -13,9 +13,18 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+    # Safety net: if two runs ever overlap, queue them instead of racing
+    concurrency:
+      group: output-branch
+      cancel-in-progress: false
 
     steps:
+      - name: Generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
       - name: Generate trophy.svg
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
@@ -26,7 +35,6 @@ jobs:
       - name: Collect trophy.svg into dist
         run: |
           mkdir -p dist
-          echo "Searching for generated SVG..."
           if [ -f trophy.svg ]; then
             mv trophy.svg dist/trophy.svg
           else
@@ -34,20 +42,18 @@ jobs:
             if [ -n "$FOUND" ]; then
               mv "$FOUND" dist/trophy.svg
             else
-              echo "ERROR: trophy.svg was not generated. Listing workspace:"
+              echo "ERROR: trophy.svg was not generated. Listing SVGs in workspace:"
               find . -maxdepth 3 -name "*.svg"
               exit 1
             fi
           fi
+          echo "Final contents of dist:"
           ls -la dist
 
-      # keep_history: true is REQUIRED so this push does not delete
-      # the Pac-Man SVG that lives on the same output branch
-      - name: Push trophy.svg to the output branch
+      - name: Push all SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
-          keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
