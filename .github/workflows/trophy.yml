@@ -1,12 +1,9 @@
 name: generate trophies
 
 on:
-  # Regenerates trophies every day at midnight UTC
   schedule:
     - cron: "0 0 * * *"
-  # Lets you run it manually from the Actions tab
   workflow_dispatch:
-  # Regenerates when you push to main
   push:
     branches:
       - main
@@ -23,9 +20,29 @@ jobs:
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: ${{ github.repository_owner }}
-          output_path: dist/trophy.svg
+          output_path: trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Collect trophy.svg into dist
+        run: |
+          mkdir -p dist
+          echo "Searching for generated SVG..."
+          if [ -f trophy.svg ]; then
+            mv trophy.svg dist/trophy.svg
+          else
+            FOUND=$(find . -name "trophy.svg" -not -path "./dist/*" | head -n 1)
+            if [ -n "$FOUND" ]; then
+              mv "$FOUND" dist/trophy.svg
+            else
+              echo "ERROR: trophy.svg was not generated. Listing workspace:"
+              find . -maxdepth 3 -name "*.svg"
+              exit 1
+            fi
+          fi
+          ls -la dist
+
+      # keep_history: true is REQUIRED so this push does not delete
+      # the Pac-Man SVG that lives on the same output branch
       - name: Push trophy.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
